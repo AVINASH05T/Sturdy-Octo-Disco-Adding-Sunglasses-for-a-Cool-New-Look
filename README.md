@@ -50,9 +50,10 @@ glassPNG = cv2.imread('glasses.png',-1)
 plt.imshow(glassPNG[:,:,::-1]);plt.title("glassPNG")
 ```
 
-<img width="1106" height="309" alt="image" src="https://github.com/user-attachments/assets/549dcb56-f8b4-4ea6-90c7-f90d42728c35" />
+<img width="1085" height="329" alt="image" src="https://github.com/user-attachments/assets/45c58b50-cb94-4c0b-896a-15d1c79f4cec" />
 
 ```c
+
 # Resize the image to fit over the eye region
 glassPNG = cv2.resize(glassPNG,(550,250))
 print("image Dimension ={}".format(glassPNG.shape))
