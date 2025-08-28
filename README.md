@@ -45,7 +45,7 @@ glassPNG = cv2.imread('glasses.png',-1)
 plt.imshow(glassPNG[:,:,::-1]);plt.title("glassPNG")
 ```
 ![WhatsApp Image 2025-03-12 at 20 23 39_fb5b9c17](https://github.com/user-attachments/assets/0c16b4cc-0ba0-4db1-b9a4-d137795c239c)
-```
+
 # Resize the image to fit over the eye region
 glassPNG = cv2.resize(glassPNG,(550,250))
 print("image Dimension ={}".format(glassPNG.shape))
